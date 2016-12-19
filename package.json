@@ -1,0 +1,45 @@
+{
+  "name": "stylelint-config-ticketfly",
+  "version": "0.0.0",
+  "description": "Ticketfly's config for Stylelint",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ticketfly-UI/stylelint-config-ticketfly"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "ticketfly",
+    "ticketfly css",
+    "ticketfly ui"
+  ],
+  "author": "Brian Sipple <@Brian_Sipple>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ticketfly-UI/stylelint-config-ticketfly/issues"
+  },
+  "homepage": "https://github.com/Ticketfly-UI/stylelint-config-ticketfly#readme",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "eslint": "^3.12.2",
+    "eslint-config-stylelint": "^6.0.0",
+    "eslint-config-ticketfly-base": "^1.1.0",
+    "eslint-plugin-ava": "^4.0.0",
+    "npmpub": "^3.1.0",
+    "stylelint": "^7.6.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^7.6.0"
+  },
+  "scripts": {
+    "ava": "ava --verbose \"__tests__/**/*.js\"",
+    "lint": "eslint . --ignore-path .gitignore",
+    "pretest": "npm run lint",
+    "release": "npmpub",
+    "test": "npm run ava"
+  }
+}
