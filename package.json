@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-ticketfly",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Ticketfly's config for Stylelint",
   "main": "index.js",
   "files": [
