@@ -40,6 +40,16 @@ For example, to change `string-quotes` to `single` and turn off the `max-empty-l
 }
 ```
 
+## Contributing
+
+### Versioning
+
+This project uses the `npmpub` package to _help_ automate the steps involved
+with publishing package versions to `npm`. Because `npmpub` encourages manual
+updating of the `CHANGELOG` and the `package.json` version, you'll need to [handle
+those first](https://github.com/MoOx/npmpub#usage), commit with the message
+"released x.x.x" and then run `npm run release`.
+
 ## [Changelog](CHANGELOG.md)
 
 ## [License](LICENSE)
