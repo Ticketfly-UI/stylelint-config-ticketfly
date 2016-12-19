@@ -3,9 +3,9 @@ import stylelint from 'stylelint';
 import validCSS from './lib/valid-css';
 import invalidCSS from './lib/invalid-css';
 import test from 'ava';
-import util from 'util';
 
-const { inspect } = util;
+// import util from 'util';
+// const { inspect } = util;
 
 test('no warnings with valid CSS', async t => {
   const { errored, results } = await stylelint.lint({
@@ -15,8 +15,6 @@ test('no warnings with valid CSS', async t => {
   });
 
   const { warnings } = results[0];
-  console.log(`results: ${inspect(results)}`);
-  console.log(`warnings: ${inspect(warnings)}`);
 
   t.false(errored, 'no rules with an "error"-level severity registered a warning');
   t.is(warnings.length, 0, 'no errored');
