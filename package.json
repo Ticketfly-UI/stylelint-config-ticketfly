@@ -36,7 +36,7 @@
     "stylelint": "^7.6.0"
   },
   "scripts": {
-    "ava": "ava --verbose \"__tests__/**/*.js\"",
+    "ava": "ava --verbose \"__tests__/**/*.test.js\"",
     "lint": "eslint . --ignore-path .gitignore",
     "pretest": "npm run lint",
     "release": "npmpub",
