@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Ticketfly-UI/stylelint-config-ticketfly#readme",
   "devDependencies": {
-    "ava": "^0.17.0",
+    "ava": "^3.4.0",
     "eslint": "^3.12.2",
     "eslint-config-stylelint": "^6.0.0",
     "eslint-config-ticketfly-base": "^1.1.0",
